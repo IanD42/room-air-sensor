@@ -31,3 +31,30 @@ ESP32 MicroPython project measuring CO2, temperature and humidity.
 | ntp.py | UK time sync |
 | display.py | TFT screen layout |
 | webpage.py | Web dashboard |
+
+## Wiring
+MH-Z19B          ESP32
+───────          ─────
+VIN      ──────  VUSB (5V)
+GND      ──────  GND
+TXD      ──────  GPIO16
+RXD      ──────  GPIO17
+
+SHT30            ESP32
+─────            ─────
+VCC      ──────  3.3V
+GND      ──────  GND
+SCL      ──────  GPIO22
+SDA      ──────  GPIO21
+
+ILI9341          ESP32
+───────          ─────
+VCC      ──────  3.3V
+GND      ──────  GND
+CLK      ──────  GPIO18
+MOSI     ──────  GPIO23
+RES      ──────  GPIO4
+DC       ──────  GPIO2
+CS       ──────  GPIO5
+BLK      ──────  VUSB (5V)
+```
