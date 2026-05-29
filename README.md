@@ -1,7 +1,7 @@
 # Room Air Quality Sensor
 
 ESP32 MicroPython project measuring CO2, temperature and humidity.
-
+All Code developed in conjunction with Claude Code AI
 ## Hardware
 - ESP32 WROOM
 - MH-Z19B CO2 sensor
