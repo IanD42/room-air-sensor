@@ -106,8 +106,8 @@ def draw(co2, temp, humidity, time_str, date_str, label):
     # ── CO2 ───────────────────────────────────────────────
 #    _tft.draw_text(_cx("CO2 LEVEL"), Y_CO2_LBL, "CO2 LEVEL", _uni, C_MUTED)
     # "CO" normal, "2" dropped down to simulate subscript
-    _tft.draw_text(84, Y_CO2_LBL,      "CO", _uni, C_MUTED)
-    _tft.draw_text(108, Y_CO2_LBL + 6, "2",  _uni, C_MUTED)
+    _tft.draw_text(100, Y_CO2_LBL,      "CO", _uni, colour)
+    _tft.draw_text(124, Y_CO2_LBL + 6, "2",  _uni, colour)
 
     if co2 is not None:
         val_str = str(co2)
