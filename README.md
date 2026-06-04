@@ -1,5 +1,4 @@
 # Room Air Quality Sensor
-Code Developed with CLAUDE AI
 ESP32 MicroPython project measuring CO2, temperature and humidity.
 All Code developed in conjunction with Claude Code AI
 ## Hardware
